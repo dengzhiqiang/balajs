@@ -1,0 +1,52 @@
+{
+  "_from": "balajs@^0.1.9",
+  "_id": "balajs@0.1.9",
+  "_inBundle": false,
+  "_integrity": "sha1-4D0eb7iNU8waJZGnv+xw0eUtjwA=",
+  "_location": "/balajs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "balajs@^0.1.9",
+    "name": "balajs",
+    "escapedName": "balajs",
+    "rawSpec": "^0.1.9",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/balajs/download/balajs-0.1.9.tgz",
+  "_shasum": "e03d1e6fb88d53cc1a2591a7bfec70d1e52d8f00",
+  "_spec": "balajs@^0.1.9",
+  "_where": "F:\\github\\weui.js",
+  "author": {
+    "name": "Andrey Gubanov"
+  },
+  "bugs": {
+    "url": "https://github.com/finom/bala/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A function for elements selection",
+  "homepage": "https://github.com/finom/bala#readme",
+  "keywords": [
+    "jquery",
+    "dom",
+    "library",
+    "balalaika"
+  ],
+  "license": "MIT",
+  "main": "./umd/bala.umd.js",
+  "name": "balajs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finom/bala.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.9"
+}
