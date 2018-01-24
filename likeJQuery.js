@@ -8,8 +8,10 @@ $ = (function (document, s_addEventListener, s_querySelectorAll) {
         // Array.isArray([])
         // true
         bala = Object.create($.fn); // 新创建对象的原型对象。bala的原型对象是数组
+
         // console.log(bala instanceof Array); // true bala的原型对象是数组，而原型的构造函数是一个数组
         // console.log(Array.isArray(bala));  // false
+        // console.dir(Object.prototype.toString.call(bala));  // [object Object]
 
         // if s is truly then push the following  如果S是真的，那么推下面
         var arg;
@@ -41,6 +43,7 @@ $ = (function (document, s_addEventListener, s_querySelectorAll) {
                             // 元素获取模块
                             // $('.button') 类名的时候走这一步
                             // $(".box button")
+                            // 如果querySelectorAll没有获取到数据，那么会返回一个空数组
                             arg = document[s_querySelectorAll](s)
                         }
                     }

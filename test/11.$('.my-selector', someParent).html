@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11.$('.my-selector', someParent)</title>
+    <style>
+        body {
+            background: #000;
+            color: deeppink;
+            font-size: 18px;
+        }
+
+        button {
+            height: 60px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <button class="button btn1" id="btn1">btn1</button>
+    <button class="button btn2">btn2</button>
+    <button class="button btn3">btn3</button>
+</div>
+
+
+<script src="../likeJQuery.js"></script>
+<script>
+    // 获取的是同一个元素
+    var b1 = $.one('.button','.box');
+    var b2 = $('.button','.box');
+
+    console.log(b1);
+    console.log(b2);
+</script>
+</body>
+</html>
